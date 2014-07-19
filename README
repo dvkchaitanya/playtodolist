@@ -1,0 +1,20 @@
+This is your new Play 2.0 application
+=====================================
+
+This file will be packaged with your application, when using `play dist`.
+
+
+setting up eclim:
+-----------------
+start eclim and from vim use the command ProjectsList if the close all the unnecessary projects except the one which is needed to improve the performance.
+'ProjectRefresh' command to reflect all the changes to vim
+
+Trouble shooting:
+-----------------
+If eclipse/eclim complaining about errors, which should not be, its better to clean compile. Command for the same is as follows:(on play console)
+	'clean compile'
+
+Configuring database
+--------------------
+in play console run the following command:
+h2-browser   , user name and password will be same as that of mentioned in the application.conf.
